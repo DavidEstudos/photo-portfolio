@@ -7,6 +7,7 @@
 (function($) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	skel.breakpoints({
 		xxlarge: '(max-width: 1920px)',
 		xlarge: '(max-width: 1680px)',
@@ -237,6 +238,8 @@
 
 })(jQuery);
 =======
+=======
+>>>>>>> Add initial template
 	var	$window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
@@ -447,5 +450,9 @@
 				$window.trigger('resize');
 			});
 
+<<<<<<< HEAD
+})(jQuery);
+>>>>>>> Add initial template
+=======
 })(jQuery);
 >>>>>>> Add initial template

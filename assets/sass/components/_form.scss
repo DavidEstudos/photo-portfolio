@@ -10,6 +10,7 @@
 		margin: 0 0 _size(element-margin) 0;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		.field {
 			margin: 0 0 (_size(element-margin) * 0.75) 0;
 
@@ -56,6 +57,8 @@
 					&.first {
 						padding: 0;
 =======
+=======
+>>>>>>> Add initial template
 		> :last-child {
 			margin-bottom: 0;
 		}
@@ -109,6 +112,9 @@
 
 					&.quarter {
 						width: calc(100% - #{$gutter * 1});
+<<<<<<< HEAD
+>>>>>>> Add initial template
+=======
 >>>>>>> Add initial template
 					}
 				}
@@ -181,10 +187,13 @@
 	:-ms-input-placeholder {
 		opacity: 0.375;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	}
 
 	.formerize-placeholder {
 		opacity: 0.375;
+=======
+>>>>>>> Add initial template
 =======
 >>>>>>> Add initial template
 	}

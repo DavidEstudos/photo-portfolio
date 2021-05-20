@@ -1,8 +1,14 @@
 /// Makes an element's :before pseudoelement a FontAwesome icon.
 /// @param {string} $content Optional content value to use.
 <<<<<<< HEAD
+<<<<<<< HEAD
 /// @param {string} $where Optional pseudoelement to target (before or after).
 @mixin icon($content: false, $where: before) {
+=======
+/// @param {string} $category Optional category to use.
+/// @param {string} $where Optional pseudoelement to target (before or after).
+@mixin icon($content: false, $category: regular, $where: before) {
+>>>>>>> Add initial template
 =======
 /// @param {string} $category Optional category to use.
 /// @param {string} $where Optional pseudoelement to target (before or after).
@@ -20,12 +26,15 @@
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 <<<<<<< HEAD
+<<<<<<< HEAD
 		font-family: FontAwesome;
 		font-style: normal;
 		font-weight: normal;
 		text-transform: none !important;
 
 =======
+=======
+>>>>>>> Add initial template
 		display: inline-block;
 		font-style: normal;
 		font-variant: normal;
@@ -45,6 +54,9 @@
 			font-weight: 400;
 		}
 
+<<<<<<< HEAD
+>>>>>>> Add initial template
+=======
 >>>>>>> Add initial template
 	}
 
@@ -88,6 +100,7 @@
 
 	@return url("data:image/svg+xml;charset=utf8,#{$svg}");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -424,6 +437,8 @@
 
 		}
 
+=======
+>>>>>>> Add initial template
 =======
 >>>>>>> Add initial template
 }

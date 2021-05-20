@@ -8,11 +8,14 @@
 
 	#footer {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		position: relative;
 		height: 5em;
 		line-height: 5em;
 		margin: 0;
 =======
+=======
+>>>>>>> Add initial template
 		@include vendor('display', 'flex');
 		@include vendor('align-items', 'center');
 		@include vendor('justify-content', 'space-between');
@@ -20,17 +23,26 @@
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
+<<<<<<< HEAD
+>>>>>>> Add initial template
+=======
 >>>>>>> Add initial template
 		background: _palette(accent3, bg);
 		color: _palette(accent3, fg);
 		overflow: hidden;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Add initial template
 		> * {
 			margin-bottom: 0;
 		}
 
+<<<<<<< HEAD
+>>>>>>> Add initial template
+=======
 >>>>>>> Add initial template
 		a {
 			color: inherit;
@@ -41,6 +53,7 @@
 		}
 
 		ul {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			&.actions {
 				position: absolute;
@@ -69,6 +82,9 @@
 =======
 			&.menu {
 >>>>>>> Add initial template
+=======
+			&.menu {
+>>>>>>> Add initial template
 				margin: 0;
 
 				li {
@@ -78,6 +94,7 @@
 			}
 		}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 		@include breakpoint(medium) {
 			height: auto;
@@ -122,6 +139,8 @@
 							line-height: 1.5em;
 						}
 =======
+=======
+>>>>>>> Add initial template
 		@include breakpoint('<=medium') {
 			@include vendor('flex-direction', 'column');
 			@include vendor('justify-content', 'center');
@@ -148,6 +167,9 @@
 							margin-top: 0;
 							padding-top: 0;
 						}
+<<<<<<< HEAD
+>>>>>>> Add initial template
+=======
 >>>>>>> Add initial template
 					}
 				}

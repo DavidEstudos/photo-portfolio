@@ -2,14 +2,20 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 <<<<<<< HEAD
+<<<<<<< HEAD
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
 @import url('font-awesome.min.css');
 =======
+=======
+>>>>>>> Add initial template
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
 @import url('fontawesome-all.min.css');
+<<<<<<< HEAD
+>>>>>>> Add initial template
+=======
 >>>>>>> Add initial template
 
 /*
@@ -18,6 +24,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	@import "libs/skel";
 
@@ -34,6 +41,8 @@
 		reset: 'full',
 		boxModel: 'border'
 =======
+=======
+>>>>>>> Add initial template
 // Breakpoints.
 
 	@include breakpoints((
@@ -43,12 +52,19 @@
 		medium:  ( 737px,   1000px ),
 		small:   ( 481px,   736px  ),
 		xsmall:  ( null,    480px  )
+<<<<<<< HEAD
+>>>>>>> Add initial template
+=======
 >>>>>>> Add initial template
 	));
 
 // Base.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	@import 'base/reset';
+>>>>>>> Add initial template
 =======
 	@import 'base/reset';
 >>>>>>> Add initial template
@@ -64,6 +80,11 @@
 	@import 'components/image';
 	@import 'components/list';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	@import 'components/actions';
+	@import 'components/icons';
+>>>>>>> Add initial template
 =======
 	@import 'components/actions';
 	@import 'components/icons';
@@ -126,10 +147,13 @@
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		@include breakpoint(small) {
 			.box {
 				padding-bottom: 2em;
 =======
+=======
+>>>>>>> Add initial template
 		@include breakpoint('<=small') {
 			.box {
 				padding: 1.5em 1.5em 2em 1.5em;
@@ -139,6 +163,9 @@
 		@include breakpoint('<=xsmall') {
 			.box {
 				padding: 1em 1em 2em 1em;
+<<<<<<< HEAD
+>>>>>>> Add initial template
+=======
 >>>>>>> Add initial template
 			}
 		}

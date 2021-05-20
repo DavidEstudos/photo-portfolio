@@ -8,6 +8,7 @@
 
 	.icon {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		text-decoration: none;
 
 		&:before {
@@ -21,12 +22,17 @@
 			-webkit-font-smoothing: antialiased;
 			-moz-osx-font-smoothing: grayscale;
 =======
+=======
+>>>>>>> Add initial template
 		@include icon;
 		position: relative;
 		text-decoration: none;
 
 		&:before {
 			line-height: inherit;
+<<<<<<< HEAD
+>>>>>>> Add initial template
+=======
 >>>>>>> Add initial template
 		}
 
@@ -34,7 +40,10 @@
 			display: none;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Add initial template
 
 		&.solid {
 			&:before {
@@ -47,5 +56,8 @@
 				font-family: 'Font Awesome 5 Brands';
 			}
 		}
+<<<<<<< HEAD
+>>>>>>> Add initial template
+=======
 >>>>>>> Add initial template
 	}
