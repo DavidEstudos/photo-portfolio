@@ -14,14 +14,32 @@
 		height: 100%;
 	}
 
+<<<<<<< HEAD
+=======
+	// Set box model to border-box.
+	// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+		html {
+			box-sizing: border-box;
+		}
+
+		*, *:before, *:after {
+			box-sizing: inherit;
+		}
+
+>>>>>>> Add initial template
 	body {
 		background: _palette(bg);
 		height: 100%;
 		min-width: 320px;
 
+<<<<<<< HEAD
 		// Prevents animation/transition "flicker" on page load.
 		// Automatically added/removed by js/main.js.
 			&.is-loading {
+=======
+		// Stops initial animations until page loads.
+			&.is-preload {
+>>>>>>> Add initial template
 				*, *:before, *:after {
 					@include vendor('animation', 'none !important');
 					@include vendor('transition', 'none !important');
@@ -129,7 +147,11 @@
 			z-index: -1;
 		}
 
+<<<<<<< HEAD
 		&.is-loading {
+=======
+		&.is-preload {
+>>>>>>> Add initial template
 			&:before {
 				@include vendor('animation', ('spinner-show 1.5s 1 0.25s ease forwards', 'spinner-rotate 0.75s infinite linear !important'));
 				z-index: 100001;

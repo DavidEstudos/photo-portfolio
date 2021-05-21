@@ -61,7 +61,11 @@
 			}
 		}
 
+<<<<<<< HEAD
 		@include breakpoint(xsmall) {
+=======
+		@include breakpoint('<=xsmall') {
+>>>>>>> Add initial template
 			@include vendor('flex-wrap', 'nowrap');
 			@include vendor('flex-direction', 'column');
 

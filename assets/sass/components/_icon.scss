@@ -7,6 +7,7 @@
 /* Icon */
 
 	.icon {
+<<<<<<< HEAD
 		text-decoration: none;
 
 		&:before {
@@ -19,9 +20,32 @@
 			line-height: 1;
 			-webkit-font-smoothing: antialiased;
 			-moz-osx-font-smoothing: grayscale;
+=======
+		@include icon;
+		position: relative;
+		text-decoration: none;
+
+		&:before {
+			line-height: inherit;
+>>>>>>> Add initial template
 		}
 
 		> .label {
 			display: none;
 		}
+<<<<<<< HEAD
+=======
+
+		&.solid {
+			&:before {
+				font-weight: 900;
+			}
+		}
+
+		&.brands {
+			&:before {
+				font-family: 'Font Awesome 5 Brands';
+			}
+		}
+>>>>>>> Add initial template
 	}

@@ -127,7 +127,11 @@
 			background-attachment: scroll !important;
 		}
 
+<<<<<<< HEAD
 		@include breakpoint(xxlarge) {
+=======
+		@include breakpoint('<=xxlarge') {
+>>>>>>> Add initial template
 			&.style2 {
 				.content {
 					width: 40%;
@@ -135,7 +139,11 @@
 			}
 		}
 
+<<<<<<< HEAD
 		@include breakpoint(large) {
+=======
+		@include breakpoint('<=large') {
+>>>>>>> Add initial template
 			&.style2 {
 				.content {
 					width: 50%;
@@ -143,7 +151,11 @@
 			}
 		}
 
+<<<<<<< HEAD
 		@include breakpoint(medium) {
+=======
+		@include breakpoint('<=medium') {
+>>>>>>> Add initial template
 			&.style2 {
 				.content {
 					width: 60%;
@@ -151,7 +163,17 @@
 			}
 		}
 
+<<<<<<< HEAD
 		@include breakpoint(small) {
+=======
+		@include breakpoint('<=small') {
+			> .content {
+				br {
+					display: none;
+				}
+			}
+
+>>>>>>> Add initial template
 			&.fullscreen {
 				height: auto !important;
 			}
@@ -190,7 +212,11 @@
 			}
 		}
 
+<<<<<<< HEAD
 		@include breakpoint(xsmall) {
+=======
+		@include breakpoint('<=xsmall') {
+>>>>>>> Add initial template
 			> .content {
 				max-width: calc(100% - 1.5em);
 			}

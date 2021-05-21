@@ -58,7 +58,11 @@
 			}
 		}
 
+<<<<<<< HEAD
 		@include breakpoint(small) {
+=======
+		@include breakpoint('<=small') {
+>>>>>>> Add initial template
 			height: 2.5em;
 			line-height: 2.5em;
 
@@ -84,7 +88,11 @@
 	body {
 		padding-top: 3em;
 
+<<<<<<< HEAD
 		@include breakpoint(small) {
+=======
+		@include breakpoint('<=small') {
+>>>>>>> Add initial template
 			padding-top: 2.5em;
 		}
 	}

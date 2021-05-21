@@ -19,7 +19,11 @@
 			padding: 3.5em 2.5em 3.5em 2.5em;
 		}
 
+<<<<<<< HEAD
 		@include breakpoint(small) {
+=======
+		@include breakpoint('<=small') {
+>>>>>>> Add initial template
 			padding: 1em;
 
 			&.style2 {

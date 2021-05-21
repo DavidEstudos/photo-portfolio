@@ -7,14 +7,31 @@
 /* Footer */
 
 	#footer {
+<<<<<<< HEAD
 		position: relative;
 		height: 5em;
 		line-height: 5em;
 		margin: 0;
+=======
+		@include vendor('display', 'flex');
+		@include vendor('align-items', 'center');
+		@include vendor('justify-content', 'space-between');
+		position: relative;
+		margin: 0;
+		line-height: 1em;
+		padding: 1.5em;
+>>>>>>> Add initial template
 		background: _palette(accent3, bg);
 		color: _palette(accent3, fg);
 		overflow: hidden;
 
+<<<<<<< HEAD
+=======
+		> * {
+			margin-bottom: 0;
+		}
+
+>>>>>>> Add initial template
 		a {
 			color: inherit;
 
@@ -24,6 +41,7 @@
 		}
 
 		ul {
+<<<<<<< HEAD
 			&.actions {
 				position: absolute;
 				left: 1em;
@@ -48,6 +66,9 @@
 				top: 0;
 				height: 5em;
 				line-height: 5em;
+=======
+			&.menu {
+>>>>>>> Add initial template
 				margin: 0;
 
 				li {
@@ -57,6 +78,7 @@
 			}
 		}
 
+<<<<<<< HEAD
 		@include breakpoint(medium) {
 			height: auto;
 			line-height: inherit;
@@ -99,6 +121,34 @@
 						a {
 							line-height: 1.5em;
 						}
+=======
+		@include breakpoint('<=medium') {
+			@include vendor('flex-direction', 'column');
+			@include vendor('justify-content', 'center');
+			line-height: 1.5em;
+			text-align: center;
+			padding: 2em 1em 2em 1em;
+
+			> * {
+				margin: 0 0 1em 0;
+			}
+		}
+
+		@include breakpoint('<=small') {
+			ul {
+				&.menu {
+					li {
+						border-left: none;
+						display: block;
+						line-height: inherit;
+						margin: 0.25em 0 0 0;
+						padding: 0.25em 0 0 0;
+
+						&:first-child {
+							margin-top: 0;
+							padding-top: 0;
+						}
+>>>>>>> Add initial template
 					}
 				}
 			}
